@@ -4,6 +4,7 @@ import { VentasComponent } from './pages/ventas/ventas.component';
 import { AboutComponent } from './pages/about/about.component';
 import { AuthLayoutComponent } from './layout/auth-layout/auth-layout.component';
 import { MainComponent } from './pages/main/main.component';
+import { AdminComponent } from './pages/admin/admin.component';
 
 export const routes: Routes = [
     { 
@@ -13,6 +14,7 @@ export const routes: Routes = [
             { path: 'ventas', component: VentasComponent},
             { path: 'about', component: AboutComponent}
             ],
+        path: 'admin', component: AdminComponent
     },
     { path: 'login', component: AuthLayoutComponent } // Login sin header/footer
       
