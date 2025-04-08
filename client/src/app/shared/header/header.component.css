@@ -2,3 +2,10 @@ header  {
     background-color: #626F47;
     height: 132px;
 }
+
+.Perfil {
+    background-color: #D9D9D9;
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+}
