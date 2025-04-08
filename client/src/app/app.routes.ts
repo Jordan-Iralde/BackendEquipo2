@@ -9,13 +9,14 @@ import { AdminComponent } from './pages/admin/admin.component';
 export const routes: Routes = [
     { 
         path: '', component: MainLayoutComponent,
-        children: [
-            {path: '', component: MainComponent},
-            { path: 'ventas', component: VentasComponent},
-            { path: 'about', component: AboutComponent}
-            ],
-        path: 'admin', component: AdminComponent
-    },
+            children: [
+                {path: '', component: MainComponent},
+                { path: 'ventas', component: VentasComponent},
+                { path: 'about', component: AboutComponent},
+                {path: 'admin', component: AdminComponent}
+                ],
+        
+        },
     { path: 'login', component: AuthLayoutComponent } // Login sin header/footer
       
 ];
